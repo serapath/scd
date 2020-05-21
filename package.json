@@ -1,0 +1,25 @@
+{
+  "name": "scd",
+  "version": "0.0.0",
+  "description": "scd",
+  "main": "src/scd.js",
+  "scripts": {
+    "start": "budo demo/demo.js:bundle.js --open --live --ssl --dir .",
+    "build": "browserify demo/demo.js -o bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serapath/scd.git"
+  },
+  "keywords": [],
+  "author": "@serapath",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/serapath/scd/issues"
+  },
+  "homepage": "https://github.com/serapath/scd#readme",
+  "devDependencies": {
+    "budo": "^11.6.3"
+  }
+}
